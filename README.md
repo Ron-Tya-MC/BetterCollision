@@ -1,7 +1,7 @@
 
 # BetterCollision
 
-線状に一定間隔でコマンドを実行させられるライブラリ
+実行座標がブロックに当たっているかを調べるライブラリ
 
 </div>
 
@@ -26,14 +26,14 @@ function better_collision:api/
 ### スコアを参照
 
 ```mcfunction
-execute if score $Hit BCollision.core matches 1 ...
+execute if score $Hit BCollision.core matches 1
 ```
 
 実行座標がブロックに当たっていれば$Hit BCollision.coreスコアが1に設定される
 
 ## 補足
 
-座標さえ指定すれば実行者がエンティティでなくとも動作する
+座標さえ指定すれば実行者がエンティティでなくとも動作する  
 コマンドブロックでも可
 
 ## 注意
