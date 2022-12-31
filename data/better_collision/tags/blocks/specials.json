@@ -1,0 +1,33 @@
+{
+    "values": [
+        "minecraft:amethyst_cluster",
+        "minecraft:azalea",
+        "minecraft:bell",
+        "minecraft:big_dripleaf",
+        "minecraft:brewing_stand",
+        "minecraft:cactus",
+        "minecraft:cake",
+        "minecraft:chorus_plant",
+        "minecraft:cocoa",
+        "minecraft:composter",
+        "minecraft:conduit",
+        "minecraft:flowering_azalea",
+        "minecraft:honey_block",
+        "minecraft:hopper",
+        "minecraft:large_amethyst_bud",
+        "minecraft:lectern",
+        "minecraft:lily_pad",
+        "minecraft:medium_amethyst_bud",
+        "minecraft:piston",
+        "minecraft:piston_head",
+        "minecraft:pointed_dripstone",
+        "minecraft:turtle_egg",
+        "minecraft:sea_pickle",
+        "minecraft:small_amethyst_bud",
+        "minecraft:snow",
+        "#minecraft:anvil",
+        "#minecraft:candle_cakes",
+        "#minecraft:candles",
+        "#minecraft:cauldrons"
+    ]
+}
