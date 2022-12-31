@@ -40,7 +40,7 @@
     execute if block ~ ~ ~ #better_collision:3pixel_pole run function better_collision:core/3pixel_pole
     execute if block ~ ~ ~ #better_collision:4pixel_pole run function better_collision:core/4pixel_pole
     execute if block ~ ~ ~ #better_collision:shape_chest if score $dx BCollision.core matches 626..9374 if score $dy BCollision.core matches ..8749 if score $dz BCollision.core matches 626..9374 run scoreboard players set $Hit BCollision.core 1
-    execute if block ~ ~ ~ #better_collision:6pixel_ground_pole if score $dx BCollision.core matches 3176..6874 if score $dz BCollision.core matches 3176..6874 run scoreboard players set $Hit BCollision.core 1
+    execute if block ~ ~ ~ #better_collision:2pixel_ground_pole if score $dx BCollision.core matches 4376..5624 if score $dz BCollision.core matches 4376..5624 run scoreboard players set $Hit BCollision.core 1
     execute if block ~ ~ ~ #better_collision:wall_heads run function better_collision:core/wall_heads
 
     execute if block ~ ~ ~ #better_collision:specials run function better_collision:core/specials/
