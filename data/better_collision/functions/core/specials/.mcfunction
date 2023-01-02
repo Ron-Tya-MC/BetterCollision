@@ -7,8 +7,11 @@
 execute if block ~ ~ ~ minecraft:amethyst_cluster run function better_collision:core/specials/amethyst_cluster
 execute if block ~ ~ ~ minecraft:azalea run function better_collision:core/specials/azalea
 execute if block ~ ~ ~ minecraft:bell run function better_collision:core/specials/bell
+execute if block ~ ~ ~ minecraft:big_dripleaf run function better_collision:core/specials/big_dripleaf
+execute if block ~ ~ ~ minecraft:brewing_stand run function better_collision:core/specials/brewing_stand
 execute if block ~ ~ ~ minecraft:cactus run function better_collision:core/specials/cactus
 execute if block ~ ~ ~ minecraft:cake run function better_collision:core/specials/cake
+execute if block ~ ~ ~ minecraft:chorus_plant run function better_collision:core/specials/chorus_plant
 execute if block ~ ~ ~ minecraft:cocoa run function better_collision:core/specials/cocoa
 execute if block ~ ~ ~ minecraft:composter run function better_collision:core/specials/composter
 execute if block ~ ~ ~ minecraft:conduit run function better_collision:core/specials/conduit
