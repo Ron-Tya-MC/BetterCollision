@@ -20,6 +20,9 @@ execute if block ~ ~ ~ minecraft:honey_block run function better_collision:core/
 execute if block ~ ~ ~ minecraft:large_amethyst_bud run function better_collision:core/specials/large_amethyst_bud
 execute if block ~ ~ ~ minecraft:lily_pad run function better_collision:core/specials/lily_pad
 execute if block ~ ~ ~ minecraft:medium_amethyst_bud run function better_collision:core/specials/medium_amethyst_bud
+execute if block ~ ~ ~ minecraft:piston_head run function better_collision:core/specials/piston_head
+execute if block ~ ~ ~ minecraft:piston run function better_collision:core/specials/piston
+execute if block ~ ~ ~ minecraft:pointed_dripstone run function better_collision:core/specials/pointed_dripstone
 execute if block ~ ~ ~ minecraft:sea_pickle run function better_collision:core/specials/sea_pickle
 execute if block ~ ~ ~ minecraft:small_amethyst_bud run function better_collision:core/specials/small_amethyst_bud
 execute if block ~ ~ ~ minecraft:snow run function better_collision:core/specials/snow
