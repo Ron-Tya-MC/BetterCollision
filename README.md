@@ -41,8 +41,8 @@ execute if score $Hit BCollision.core matches 1
 ### 一部のブロックだけ判定を無視させる
 
 以下のJsonに記述したブロックは判定されません
->ignore_blocks.json  
-(例)
+(例)  
+>ignore_blocks.json
 
 ```json
 {
