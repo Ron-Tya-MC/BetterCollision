@@ -28,7 +28,8 @@ execute if block ~ ~ ~ minecraft:lectern run function better_collision:core/spec
 execute if block ~ ~ ~ minecraft:lily_pad run function better_collision:core/specials/lily_pad
 execute if block ~ ~ ~ minecraft:medium_amethyst_bud run function better_collision:core/specials/medium_amethyst_bud
 execute if block ~ ~ ~ minecraft:piston_head run function better_collision:core/specials/piston_head
-execute if block ~ ~ ~ minecraft:piston run function better_collision:core/specials/piston
+execute if block ~ ~ ~ #better_collision:pistons[extended=false] run scoreboard players set $Hit BCollision.core 1
+execute if block ~ ~ ~ #better_collision:pistons[extended=true] run function better_collision:core/specials/piston
 execute unless score $DisableDripstone BCollision.core matches 1 if block ~ ~ ~ minecraft:pointed_dripstone run function better_collision:core/specials/pointed_dripstone
 execute if block ~ ~ ~ minecraft:sea_pickle run function better_collision:core/specials/sea_pickle
 execute if block ~ ~ ~ minecraft:small_amethyst_bud run function better_collision:core/specials/small_amethyst_bud

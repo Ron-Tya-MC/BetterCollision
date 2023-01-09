@@ -11,6 +11,7 @@
     execute if block ~ ~ ~ #better_collision:height_1pixel if score $dy BCollision.core matches ..624 run scoreboard players set $Hit BCollision.core 1
     execute if block ~ ~ ~ #better_collision:height_2pixel if score $dy BCollision.core matches ..1249 run scoreboard players set $Hit BCollision.core 1
     execute if block ~ ~ ~ #better_collision:height_6pixel if score $dy BCollision.core matches ..3749 run scoreboard players set $Hit BCollision.core 1
+    execute if block ~ ~ ~ #minecraft:slabs[type=double] run scoreboard players set $Hit BCollision.core 1
     execute if block ~ ~ ~ #minecraft:slabs[type=bottom] if score $dy BCollision.core matches ..4999 run scoreboard players set $Hit BCollision.core 1
     execute if block ~ ~ ~ #minecraft:slabs[type=top] if score $dy BCollision.core matches 5001.. run scoreboard players set $Hit BCollision.core 1
     execute if block ~ ~ ~ #better_collision:height_8pixel if score $dy BCollision.core matches ..4999 run scoreboard players set $Hit BCollision.core 1
