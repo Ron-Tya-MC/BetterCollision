@@ -11,8 +11,6 @@
     execute if block ~ ~ ~ #better_collision:full_blocks run scoreboard players set $Hit BCollision.core 1
     execute if block ~ ~ ~ #minecraft:slabs[type=double] run scoreboard players set $Hit BCollision.core 1
     execute if block ~ ~ ~ #better_collision:pistons[extended=false] run scoreboard players set $Hit BCollision.core 1
-    execute if score $AlwaysHitBamboo BCollision.core matches 1 if block ~ ~ ~ minecraft:bamboo run scoreboard players set $Hit BCollision.core 1
-    execute if score $AlwaysHitDripstone BCollision.core matches 1 if block ~ ~ ~ minecraft:pointed_dripstone run scoreboard players set $Hit BCollision.core 1
 
 # ただしフェンス上なら別
     execute unless score $Hit BCollision.core matches 1 unless score $DisableTallBlock BCollision.core matches 1 if block ~ ~-0.5 ~ #better_collision:on_check run function better_collision:core/on_block_check

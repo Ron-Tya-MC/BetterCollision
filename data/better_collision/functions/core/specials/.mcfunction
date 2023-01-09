@@ -4,8 +4,12 @@
 #
 # @within function better_collision:core/main
 
+execute if score $AlwaysHitBamboo BCollision.core matches 1 if block ~ ~ ~ minecraft:bamboo run scoreboard players set $Hit BCollision.core 1
+execute if score $AlwaysHitDripstone BCollision.core matches 1 if block ~ ~ ~ minecraft:pointed_dripstone run scoreboard players set $Hit BCollision.core 1
+
 execute if block ~ ~ ~ minecraft:amethyst_cluster run function better_collision:core/specials/amethyst_cluster
 execute if block ~ ~ ~ minecraft:azalea run function better_collision:core/specials/azalea
+execute unless score $DisableBamboo BCollision.core matches 1 if block ~ ~ ~ minecraft:bamboo if score $dx BCollision.core matches 4376..5624 if score $dz BCollision.core matches 4376..5624 run scoreboard players set $Hit BCollision.core 1
 execute if block ~ ~ ~ minecraft:bell run function better_collision:core/specials/bell
 execute if block ~ ~ ~ minecraft:big_dripleaf run function better_collision:core/specials/big_dripleaf
 execute if block ~ ~ ~ minecraft:brewing_stand run function better_collision:core/specials/brewing_stand
