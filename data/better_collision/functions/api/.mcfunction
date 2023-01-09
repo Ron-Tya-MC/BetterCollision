@@ -10,8 +10,7 @@
 # フルブロックはスキップ
     execute if block ~ ~ ~ #better_collision:full_blocks run scoreboard players set $Hit BCollision.core 1
     execute if block ~ ~ ~ #minecraft:slabs[type=double] run scoreboard players set $Hit BCollision.core 1
-    execute if block ~ ~ ~ minecraft:piston[extended=false] run scoreboard players set $Hit BCollision.core 1
-    execute if block ~ ~ ~ minecraft:sticky_piston[extended=false] run scoreboard players set $Hit BCollision.core 1
+    execute if block ~ ~ ~ #better_collision:pistons[extended=false] run scoreboard players set $Hit BCollision.core 1
     execute if score $AlwaysHitBamboo BCollision.core matches 1 if block ~ ~ ~ minecraft:bamboo run scoreboard players set $Hit BCollision.core 1
     execute if score $AlwaysHitDripstone BCollision.core matches 1 if block ~ ~ ~ minecraft:pointed_dripstone run scoreboard players set $Hit BCollision.core 1
 
@@ -19,4 +18,4 @@
     execute unless score $Hit BCollision.core matches 1 unless score $DisableTallBlock BCollision.core matches 1 if block ~ ~-0.5 ~ #better_collision:on_check run function better_collision:core/on_block_check
 
 # 判定ナシはスキップ
-    execute unless score $Hit BCollision.core matches 1 unless block ~ ~ ~ #better_collision:ignore_blocks unless block ~ ~ ~ #minecraft:fence_gates[open=true] unless block ~ ~ ~ minecraft:snow[layers=1] unless block ~ ~ ~ minecraft:big_dripleaf[tilt=full] run function better_collision:core/main
+    execute unless score $Hit BCollision.core matches 1 unless block ~ ~ ~ #better_collision:ignore_blocks unless block ~ ~ ~ #minecraft:fence_gates[open=true] unless block ~ ~ ~ minecraft:snow[layers=1] unless block ~ ~ ~ minecraft:big_dripleaf[tilt=full] run function better_collision:core/check
