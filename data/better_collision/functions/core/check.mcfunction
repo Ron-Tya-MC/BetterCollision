@@ -5,5 +5,8 @@
 # @within function better_collision:api/
 
 # 高さ判定だけでいいなら分岐
-    execute if block ~ ~ ~ #better_collision:only_height run function better_collision:core/only_height
-    execute unless block ~ ~ ~ #better_collision:only_height run function better_collision:core/main
+    execute if block ~ ~ ~ #better_collision:only_height unless block ~ ~ ~ #better_collision:specials run function better_collision:core/only_height
+# 特殊なら特殊へ
+    execute if block ~ ~ ~ #better_collision:specials run function better_collision:core/specials/
+# 普通のやつら
+    execute unless block ~ ~ ~ #better_collision:only_height unless block ~ ~ ~ #better_collision:specials run function better_collision:core/main

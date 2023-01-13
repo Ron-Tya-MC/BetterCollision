@@ -31,8 +31,6 @@
     execute if block ~ ~ ~ #better_collision:shape_chest if score $dx BCollision.core matches 626..9374 if score $dy BCollision.core matches ..8749 if score $dz BCollision.core matches 626..9374 run scoreboard players set $Hit BCollision.core 1
     execute if block ~ ~ ~ #better_collision:wall_heads run function better_collision:core/wall_heads
 
-    execute if block ~ ~ ~ #better_collision:specials run function better_collision:core/specials/
-
 # スコアリセ
     scoreboard players reset $dx BCollision.core
     scoreboard players reset $dy BCollision.core

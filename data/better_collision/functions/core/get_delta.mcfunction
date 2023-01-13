@@ -3,6 +3,7 @@
 # 小数点以下の位置を取得する
 #
 # @within function better_collision:core/main
+# @within function better_collision:core/specials/
 # @within function better_collision:core/on_block_check
     summon marker ~ ~ ~ {Tags:["Better_Collision_PosMarker"]}
 
