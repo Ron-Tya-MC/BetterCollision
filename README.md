@@ -29,7 +29,7 @@ function better_collision:api/
 execute if score $Hit BCollision.core matches 1
 ```
 
-実行座標がブロックに当たっていれば$Hit BCollision.coreスコアが1に設定されます
+実行座標がブロックに当たっていれば$Hit BCollision.coreスコアが1に設定されます  
 当たっていなければ何も設定されません
 
 ## 補足
