@@ -1,7 +1,7 @@
 
 # BetterCollision
 
-実行座標がブロックに当たっているかを調べるライブラリ
+実行座標がブロックに埋まっているかを調べるライブラリ
 
 </div>
 
@@ -29,8 +29,8 @@ function better_collision:api/
 execute if score $Hit BCollision.core matches 1
 ```
 
-実行座標がブロックに当たっていれば$Hit BCollision.coreスコアが1に設定されます  
-当たっていなければ何も設定されません
+実行座標がブロックの当たり判定に当たっていれば$Hit BCollision.coreスコアが1に設定されます  
+当たっていなければ設定されません
 
 ## 補足
 
