@@ -34,6 +34,7 @@ execute if block ~ ~ ~ minecraft:small_amethyst_bud run function better_collisio
 execute if block ~ ~ ~ minecraft:snow run function better_collision:core/specials/snow
 execute if block ~ ~ ~ minecraft:turtle_egg run function better_collision:core/specials/turtle_egg
 execute if block ~ ~ ~ #minecraft:anvil run function better_collision:core/specials/anvil
+execute if block ~ ~ ~ #minecraft:beds run function better_collision:core/specials/beds
 execute if block ~ ~ ~ #minecraft:candle_cakes run function better_collision:core/specials/candle_cakes
 execute if block ~ ~ ~ #minecraft:candles run function better_collision:core/specials/candles
 execute if block ~ ~ ~ #minecraft:cauldrons run function better_collision:core/specials/cauldrons

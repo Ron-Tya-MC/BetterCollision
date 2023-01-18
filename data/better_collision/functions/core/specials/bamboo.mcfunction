@@ -1,6 +1,6 @@
 #> better_collision:core/specials/bamboo
 #
-# 鍾乳石
+# 竹
 #
 # @within function better_collision:core/specials/
 
