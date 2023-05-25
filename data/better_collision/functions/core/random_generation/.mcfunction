@@ -24,8 +24,9 @@
     scoreboard players operation $fpzmax BCollision.core += $fp.size BCollision.core
 
 # 判定
-    execute if score $fp.height BCollision.core matches 0.. if score $dy BCollision.core < $fp.height BCollision.core if score $dx BCollision.core > $fpxmin BCollision.core if score $dx BCollision.core < $fpxmax BCollision.core if score $dz BCollision.core > $fpzmin BCollision.core if score $dz BCollision.core < $fpzmax BCollision.core run scoreboard players set $Hit BCollision.core 1
-    execute unless score $fp.height BCollision.core matches 0.. if score $dx BCollision.core > $fpxmin BCollision.core if score $dx BCollision.core < $fpxmax BCollision.core if score $dz BCollision.core > $fpzmin BCollision.core if score $dz BCollision.core < $fpzmax BCollision.core run scoreboard players set $Hit BCollision.core 1
+    execute if score $fp.heightmin BCollision.core matches 0.. if score $dy BCollision.core > $fp.heightmin BCollision.core if score $dx BCollision.core > $fpxmin BCollision.core if score $dx BCollision.core < $fpxmax BCollision.core if score $dz BCollision.core > $fpzmin BCollision.core if score $dz BCollision.core < $fpzmax BCollision.core run scoreboard players set $Hit BCollision.core 1
+    execute if score $fp.heightmax BCollision.core matches 0.. if score $dy BCollision.core < $fp.heightmax BCollision.core if score $dx BCollision.core > $fpxmin BCollision.core if score $dx BCollision.core < $fpxmax BCollision.core if score $dz BCollision.core > $fpzmin BCollision.core if score $dz BCollision.core < $fpzmax BCollision.core run scoreboard players set $Hit BCollision.core 1
+    execute unless score $fp.heightmin BCollision.core matches 0.. unless score $fp.heightmax BCollision.core matches 0.. if score $dx BCollision.core > $fpxmin BCollision.core if score $dx BCollision.core < $fpxmax BCollision.core if score $dz BCollision.core > $fpzmin BCollision.core if score $dz BCollision.core < $fpzmax BCollision.core run scoreboard players set $Hit BCollision.core 1
 
 # スコアリセット
     scoreboard players reset $dx BCollision.core
