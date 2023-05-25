@@ -75,7 +75,7 @@ execute if score $Hit BCollision.core matches 1
 
 ## クレジット
 
-[https://github.com/MCJE-Tech-Shares/Minecraft-JE-Technical-Note]のflower_position
+[https://github.com/MCJE-Tech-Shares/Minecraft-JE-Technical-Note](https://github.com/MCJE-Tech-Shares/Minecraft-JE-Technical-Note)のflower_position
 
 - 竹や鍾乳石の位置の特定に使用
 
