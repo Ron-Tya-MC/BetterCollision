@@ -8,7 +8,6 @@ function better_collision:core/get_delta
 
 execute if block ~ ~ ~ minecraft:amethyst_cluster run function better_collision:core/specials/amethyst_cluster
 execute if block ~ ~ ~ minecraft:azalea run function better_collision:core/specials/azalea
-execute if block ~ ~ ~ minecraft:bamboo unless score $DisableBamboo BCollision.core matches 1 run function better_collision:core/specials/bamboo
 execute if block ~ ~ ~ minecraft:bell run function better_collision:core/specials/bell
 execute if block ~ ~ ~ minecraft:big_dripleaf run function better_collision:core/specials/big_dripleaf
 execute if block ~ ~ ~ minecraft:brewing_stand run function better_collision:core/specials/brewing_stand
@@ -28,7 +27,6 @@ execute if block ~ ~ ~ minecraft:lily_pad run function better_collision:core/spe
 execute if block ~ ~ ~ minecraft:medium_amethyst_bud run function better_collision:core/specials/medium_amethyst_bud
 execute if block ~ ~ ~ minecraft:piston_head run function better_collision:core/specials/piston_head
 execute if block ~ ~ ~ #better_collision:pistons run function better_collision:core/specials/piston
-execute if block ~ ~ ~ minecraft:pointed_dripstone unless score $DisableDripstone BCollision.core matches 1 run function better_collision:core/specials/pointed_dripstone
 execute if block ~ ~ ~ minecraft:sea_pickle run function better_collision:core/specials/sea_pickle
 execute if block ~ ~ ~ minecraft:small_amethyst_bud run function better_collision:core/specials/small_amethyst_bud
 execute if block ~ ~ ~ minecraft:snow run function better_collision:core/specials/snow

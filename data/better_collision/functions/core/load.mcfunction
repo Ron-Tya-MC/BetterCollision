@@ -11,3 +11,6 @@ scoreboard players set #100000 BCollision.core 100000
 scoreboard players set $installed BCollision.core 1
 
 #declare storage better_collision:
+#declare storage minecraft:_
+
+function rusk_flower_position:init

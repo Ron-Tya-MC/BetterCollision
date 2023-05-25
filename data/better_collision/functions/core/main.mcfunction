@@ -8,7 +8,6 @@
     function better_collision:core/get_delta
 
 # ブロックごとに判定
-
     execute if block ~ ~ ~ #better_collision:2pixel_wall run function better_collision:core/2pixel_wall
     execute if block ~ ~ ~ #better_collision:4pixel_wall run function better_collision:core/4pixel_wall
     execute if block ~ ~ ~ #better_collision:8pixel_wall run function better_collision:core/8pixel_wall

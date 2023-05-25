@@ -5,6 +5,7 @@
 # @within function better_collision:core/main
 # @within function better_collision:core/specials/
 # @within function better_collision:core/on_block_check
+# @within function better_collision:core/random_generation/
     summon marker ~ ~ ~ {Tags:["Better_Collision_PosMarker"]}
 
 # 座標内の位置を取得

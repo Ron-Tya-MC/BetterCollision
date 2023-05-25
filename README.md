@@ -59,21 +59,6 @@ execute if score $Hit BCollision.core matches 1
 }
 ```
 
-### ランダム性のあるブロック
-
-竹や鍾乳石など生成にランダム性のあるブロックは正常に判定できないことがあります  
-設定用スコアを1にすることで設定することができます
-
-#### 一ブロックとして判定させる
-
-- 竹...$AlwaysHitBamboo BCollision.core
-- 鍾乳石...$AlwaysHitDripstone BCollision.core
-
-#### 判定しない
-
-- 竹...$DisableBamboo BCollision.core
-- 鍾乳石...$DisableDripstone BCollision.core
-
 ### 一ブロックより高いブロック
 
 フェンスや壁など1ブロックより判定が高いブロックはその部分まで判定されます  
@@ -87,6 +72,12 @@ execute if score $Hit BCollision.core matches 1
 ## 連絡
 
 [@Ron_Tya_MC](https://twitter.com/Ron_Tya_MC)まで
+
+## クレジット
+
+[https://github.com/MCJE-Tech-Shares/Minecraft-JE-Technical-Note]のflower_position
+
+- 竹や鍾乳石の位置の特定に使用
 
 ## ライセンス
 
