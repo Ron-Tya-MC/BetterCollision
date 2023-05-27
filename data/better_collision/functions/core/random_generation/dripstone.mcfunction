@@ -2,7 +2,7 @@
 #
 # 鍾乳石の位置調整
 #
-# @within function better_collision:core/random_generation/
+# @within function better_collision:core/random_generation/*
 
 # 残り幅が3750より小さければ調整
     execute if score $fpx BCollision.core matches ..3749 run scoreboard players set $fpx BCollision.core 3750
