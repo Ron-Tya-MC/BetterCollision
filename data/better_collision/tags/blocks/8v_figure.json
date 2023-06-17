@@ -5,6 +5,7 @@
         "minecraft:skeleton_skull",
         "minecraft:wither_skeleton_skull",
         "minecraft:creeper_head",
-        "minecraft:dragon_head"
+        "minecraft:dragon_head",
+        "minecraft:piglin_head"
     ]
 }

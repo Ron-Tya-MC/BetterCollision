@@ -17,6 +17,7 @@
     execute if block ~ ~ ~ #minecraft:fence_gates[open=false] run function better_collision:core/fence_gates
     execute if block ~ ~ ~ #better_collision:6h_figure if score $dx BCollision.core matches 3176..6874 if score $dz BCollision.core matches 3176..6874 run function better_collision:core/6h_figure
     execute if block ~ ~ ~ #better_collision:8h_figure if score $dx BCollision.core matches 2501..7499 if score $dz BCollision.core matches 2501..7499 run function better_collision:core/8h_figure
+    execute if block ~ ~ ~ #better_collision:10h_figure if score $dx BCollision.core matches 1826..8174 if score $dz BCollision.core matches 1826..8174 run function better_collision:core/8h_figure
 
     execute if score $dx BCollision.core matches 1875..8125 if score $dz BCollision.core matches 1875..8125 run scoreboard players set $DisableDoor BCollision.core 1
     execute unless score $DisableDoor BCollision.core matches 1 if block ~ ~ ~ #minecraft:doors run function better_collision:core/doors

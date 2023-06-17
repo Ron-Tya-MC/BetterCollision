@@ -11,6 +11,7 @@
         "minecraft:cocoa",
         "minecraft:composter",
         "minecraft:conduit",
+        "minecraft:decorated_pot",
         "minecraft:flowering_azalea",
         "minecraft:grindstone",
         "minecraft:honey_block",
@@ -20,16 +21,19 @@
         "minecraft:lectern",
         "minecraft:lily_pad",
         "minecraft:medium_amethyst_bud",
+        "minecraft:piglin_wall_head",
         "minecraft:piston_head",
         "minecraft:piston",
         "minecraft:sea_pickle",
         "minecraft:small_amethyst_bud",
+        "minecraft:sniffer_egg",
         "minecraft:snow",
         "minecraft:turtle_egg",
         "#minecraft:anvil",
         "#minecraft:beds",
         "#minecraft:candle_cakes",
         "#minecraft:candles",
-        "#minecraft:cauldrons"
+        "#minecraft:cauldrons",
+        "#minecraft:wall_hanging_signs"
     ]
 }

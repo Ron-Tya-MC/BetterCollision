@@ -17,6 +17,7 @@ execute if block ~ ~ ~ minecraft:chorus_plant run function better_collision:core
 execute if block ~ ~ ~ minecraft:cocoa run function better_collision:core/specials/cocoa
 execute if block ~ ~ ~ minecraft:composter run function better_collision:core/specials/composter
 execute if block ~ ~ ~ minecraft:conduit run function better_collision:core/specials/conduit
+execute if block ~ ~ ~ minecraft:decorated_pot run function better_collision:core/specials/decorated_pot
 execute if block ~ ~ ~ minecraft:flowering_azalea run function better_collision:core/specials/azalea
 execute if block ~ ~ ~ minecraft:grindstone run function better_collision:core/specials/grindstone
 execute if block ~ ~ ~ minecraft:honey_block run function better_collision:core/specials/honey_block
@@ -27,8 +28,10 @@ execute if block ~ ~ ~ minecraft:lily_pad run function better_collision:core/spe
 execute if block ~ ~ ~ minecraft:medium_amethyst_bud run function better_collision:core/specials/medium_amethyst_bud
 execute if block ~ ~ ~ minecraft:piston_head run function better_collision:core/specials/piston_head
 execute if block ~ ~ ~ #better_collision:pistons run function better_collision:core/specials/piston
+execute if block ~ ~ ~ minecraft:piglin_wall_head run function better_collision:core/specials/piglin_wall_head
 execute if block ~ ~ ~ minecraft:sea_pickle run function better_collision:core/specials/sea_pickle
 execute if block ~ ~ ~ minecraft:small_amethyst_bud run function better_collision:core/specials/small_amethyst_bud
+execute if block ~ ~ ~ minecraft:sniffer_egg run function better_collision:core/specials/sniffer_egg
 execute if block ~ ~ ~ minecraft:snow run function better_collision:core/specials/snow
 execute if block ~ ~ ~ minecraft:turtle_egg run function better_collision:core/specials/turtle_egg
 execute if block ~ ~ ~ #minecraft:anvil run function better_collision:core/specials/anvil
@@ -36,6 +39,7 @@ execute if block ~ ~ ~ #minecraft:beds run function better_collision:core/specia
 execute if block ~ ~ ~ #minecraft:candle_cakes run function better_collision:core/specials/candle_cakes
 execute if block ~ ~ ~ #minecraft:candles run function better_collision:core/specials/candles
 execute if block ~ ~ ~ #minecraft:cauldrons run function better_collision:core/specials/cauldrons
+execute if block ~ ~ ~ #minecraft:wall_hanging_signs run function better_collision:core/specials/wall_hanging_signs
 
 scoreboard players reset $dx BCollision.core
 scoreboard players reset $dy BCollision.core
