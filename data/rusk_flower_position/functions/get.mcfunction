@@ -3,11 +3,12 @@
 
 ## 実行点の座標を取得
     # マーカー召喚
-    execute unless entity 0-0-0-0-100000137 run summon item_display ~ ~ ~ {UUID:[I;0,0,1,311]}
+    execute unless entity 0-0-0-0-100000137 run summon armor_stand ~ ~ ~ {UUID:[I;0,0,1,311],Invisible:1b}
     # 
     execute align xyz run tp 0-0-0-0-100000137 ~0.5 ~ ~0.5
     # 座標をストレージに保存
     data modify storage _ pos set from entity 0-0-0-0-100000137 Pos
+    kill 0-0-0-0-100000137
 
 ## シードの計算
 # 最終的に下位28bit以内しか見ないのでオーバーフローしてても気にしない

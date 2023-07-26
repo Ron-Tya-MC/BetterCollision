@@ -6,6 +6,6 @@
         "minecraft:wither_skeleton_skull",
         "minecraft:creeper_head",
         "minecraft:dragon_head",
-        "minecraft:piglin_head"
+        {"id":"minecraft:piglin_head","required":false}
     ]
 }

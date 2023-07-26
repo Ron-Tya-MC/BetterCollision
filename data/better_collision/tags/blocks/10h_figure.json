@@ -1,5 +1,5 @@
 {
     "values": [
-        "minecraft:piglin_head"
+        {"id":"minecraft:piglin_head","required":false}
     ]
 }
