@@ -1,0 +1,7 @@
+{
+    "values": [
+        {"id":"minecraft:dirt_path","required":false},
+        {"id":"minecraft:grass_path","required":false},
+        "minecraft:farmland"
+    ]
+}

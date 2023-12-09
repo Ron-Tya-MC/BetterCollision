@@ -2,5 +2,13 @@
     "pack": {
         "pack_format": 10,
         "description": "§bRon's Datapack"
+    },
+    "overlays": {
+        "entries": [
+            {
+                "directory": "1.20.3",
+                "formats": 26
+            }
+        ]
     }
 }

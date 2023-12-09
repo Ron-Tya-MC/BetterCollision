@@ -5,11 +5,6 @@
 
 </div>
 
-# 注意
-
-こちらはバージョン1.20.3以降向けのREADMEです
-バージョン1.20.2以前のワールドに導入する場合は[こちら](./README_1.16.2-1.20.2.md)をご覧ください
-
 ## 動作確認バージョン
 
 - 1.16.2~
@@ -20,15 +15,22 @@
 
 ## 使い方
 
-### コマンドを実行し、返り値を参照
+### コマンドを実行
 
 ```mcfunction
-execute if function better_collision:api/ ...
+function better_collision:api/
 ```
 
 ブロックを検知したい座標で実行
-実行座標がブロックの当たり判定に当たっていれば返り値1が返され、if functionが成功します
-当たっていなければ0が返され、失敗します
+
+### スコアを参照
+
+```mcfunction
+execute if score $Hit BCollision.core matches 1
+```
+
+実行座標がブロックの当たり判定に当たっていれば$Hit BCollision.coreスコアが1に設定されます  
+当たっていなければ設定されません
 
 ## 補足
 
