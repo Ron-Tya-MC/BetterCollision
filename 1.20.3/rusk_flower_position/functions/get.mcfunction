@@ -3,7 +3,7 @@
 
 ## 実行点の座標を取得
     # マーカー召喚
-    execute unless entity 0-0-0-0-100000137 run summon armor_stand ~ ~ ~ {UUID:[I;0,0,1,311],Invisible:1b}
+    execute unless entity 0-0-0-0-100000137 run summon text_display ~ ~ ~ {UUID:[I;0,0,1,311]}
     # 
     execute align xyz run tp 0-0-0-0-100000137 ~0.5 ~ ~0.5
     # 座標をストレージに保存
