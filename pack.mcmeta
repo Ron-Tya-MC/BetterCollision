@@ -1,6 +1,10 @@
 {
     "pack": {
         "pack_format": 10,
+        "supported_formats":{
+            "max_inclusive": 26,
+            "min_inclusive": 10
+        },
         "description": "§bRon's Datapack"
     },
     "overlays": {
