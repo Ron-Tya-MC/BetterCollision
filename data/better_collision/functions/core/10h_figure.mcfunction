@@ -4,4 +4,4 @@
 #
 # @within function better_collision:core/main
 
-execute if block ~ ~ ~ #better_collision:8v_figure if score $dy BCollision.core matches ..4999 run scoreboard players set $Hit BCollision.core 1
+execute if block ~ ~ ~ #better_collision:8v_figure if score #dy BCollision.core matches ..4999 run scoreboard players set #Hit BCollision.core 1

@@ -26,10 +26,11 @@ execute if block ~ ~ ~ minecraft:turtle_egg run return run function better_colli
 execute if block ~ ~ ~ #minecraft:anvil run return run function better_collision:core/specials/anvil
 execute if block ~ ~ ~ #minecraft:beds run return run function better_collision:core/specials/beds
 execute if block ~ ~ ~ #better_collision:pistons run return run function better_collision:core/specials/piston
+execute if block ~ ~ ~ #better_collision:lanterns run return run function better_collision:core/specials/lantern
 
 execute if block ~ ~ ~ #better_collision:specials/1.17 run return run function better_collision:core/specials/1.17/
 execute if block ~ ~ ~ #better_collision:specials/1.20 run return run function better_collision:core/specials/1.20/
 
-scoreboard players reset $dx BCollision.core
-scoreboard players reset $dy BCollision.core
-scoreboard players reset $dz BCollision.core
+scoreboard players reset #dx BCollision.core
+scoreboard players reset #dy BCollision.core
+scoreboard players reset #dz BCollision.core

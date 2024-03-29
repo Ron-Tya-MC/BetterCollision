@@ -5,5 +5,5 @@
 # @within function better_collision:core/get_delta
 
 # 座標内の位置を取得
-    execute store result score $dy BCollision.core run data get entity @e[tag=Better_Collision_PosMarker,limit=1] Pos[1] 10000
-    execute run scoreboard players operation $dy BCollision.core %= #10000 BCollision.core
+    execute store result score #dy BCollision.core run data get entity @e[type=item_display,tag=Better_Collision_PosMarker,limit=1] Pos[1] 10000
+    execute run scoreboard players operation #dy BCollision.core %= #10000 BCollision.core

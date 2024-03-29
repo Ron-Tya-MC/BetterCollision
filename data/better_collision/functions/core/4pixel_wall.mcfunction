@@ -5,8 +5,8 @@
 # @within function better_collision:core/main
 # @within function better_collision:core/on_block_check
 
-execute if score $dx BCollision.core matches 3751..6249 if score $dz BCollision.core matches 3751..6249 run scoreboard players set $Hit BCollision.core 1
-execute if block ~ ~ ~ #better_collision:4pixel_wall[north=true] if score $dx BCollision.core matches 3751..6249 if score $dz BCollision.core matches ..6249 run scoreboard players set $Hit BCollision.core 1
-execute if block ~ ~ ~ #better_collision:4pixel_wall[south=true] if score $dx BCollision.core matches 3751..6249 if score $dz BCollision.core matches 3751.. run scoreboard players set $Hit BCollision.core 1
-execute if block ~ ~ ~ #better_collision:4pixel_wall[west=true] if score $dx BCollision.core matches ..6249 if score $dz BCollision.core matches 3751..6249 run scoreboard players set $Hit BCollision.core 1
-execute if block ~ ~ ~ #better_collision:4pixel_wall[east=true] if score $dx BCollision.core matches 3751.. if score $dz BCollision.core matches 3751..6249 run scoreboard players set $Hit BCollision.core 1
+execute if score #dx BCollision.core matches 3751..6249 if score #dz BCollision.core matches 3751..6249 run scoreboard players set #Hit BCollision.core 1
+execute if block ~ ~ ~ #better_collision:4pixel_wall[north=true] if score #dx BCollision.core matches 3751..6249 if score #dz BCollision.core matches ..6249 run scoreboard players set #Hit BCollision.core 1
+execute if block ~ ~ ~ #better_collision:4pixel_wall[south=true] if score #dx BCollision.core matches 3751..6249 if score #dz BCollision.core matches 3751.. run scoreboard players set #Hit BCollision.core 1
+execute if block ~ ~ ~ #better_collision:4pixel_wall[west=true] if score #dx BCollision.core matches ..6249 if score #dz BCollision.core matches 3751..6249 run scoreboard players set #Hit BCollision.core 1
+execute if block ~ ~ ~ #better_collision:4pixel_wall[east=true] if score #dx BCollision.core matches 3751.. if score #dz BCollision.core matches 3751..6249 run scoreboard players set #Hit BCollision.core 1

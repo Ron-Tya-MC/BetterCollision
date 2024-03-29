@@ -29,6 +29,8 @@ execute if function better_collision:api/ ...
 ブロックを検知したい座標で実行  
 実行座標がブロックの当たり判定に当たっていれば返り値1が返され、if functionが成功します  
 当たっていなければ0が返され、失敗します
+また、当たっていれば#Hit BCollision.coreスコアが1に設定されます  
+当たっていなければ設定されません
 
 ## 補足
 
@@ -58,10 +60,10 @@ execute if function better_collision:api/ ...
 フェンスや壁など1ブロックより判定が高いブロックはその部分まで判定されます  
 この機能はそれぞれのスコアを1に設定することで無効にできます
 
-- 全て無効...$DisableTallBlock BCollision.core
-- フェンス無効...$DisableTallBlock.fences BCollision.core
-- フェンスゲート無効...$DisableTallBlock.fencegates BCollision.core
-- 壁無効...$DisableTallBlock.walls BCollision.core
+- 全て無効...#DisableTallBlock BCollision.core
+- フェンス無効...#DisableTallBlock.fences BCollision.core
+- フェンスゲート無効...#DisableTallBlock.fencegates BCollision.core
+- 壁無効...#DisableTallBlock.walls BCollision.core
 
 ## 連絡
 

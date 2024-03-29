@@ -6,9 +6,9 @@
 # @within function better_collision:core/specials/
 # @within function better_collision:core/on_block_check
 # @within function better_collision:core/random_generation/
-    summon text_display ~ ~ ~ {Tags:["Better_Collision_PosMarker"]}
+    summon item_display ~ ~ ~ {Tags:["Better_Collision_PosMarker"]}
 
 # 座標内の位置を取得
     execute unless block ~ ~ ~ #better_collision:req_100000 run function better_collision:core/get_delta_not_100000
     execute if block ~ ~ ~ #better_collision:req_100000 run function better_collision:core/get_delta_100000
-    kill @e[tag=Better_Collision_PosMarker,limit=1]
+    kill @e[type=item_display,tag=Better_Collision_PosMarker,limit=1]

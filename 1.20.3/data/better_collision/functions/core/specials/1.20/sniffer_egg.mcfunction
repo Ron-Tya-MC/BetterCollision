@@ -4,4 +4,4 @@
 #
 # @within function better_collision:core/specials/
 
-execute if score $dx BCollision.core matches 626..9374 if score $dy BCollision.core matches ..9374 if score $dz BCollision.core matches 1251..8749 run return 1
+execute if score #dx BCollision.core matches 626..9374 if score #dy BCollision.core matches ..9374 if score #dz BCollision.core matches 1251..8749 run return 1
