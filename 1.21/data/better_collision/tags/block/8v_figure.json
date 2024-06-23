@@ -1,0 +1,13 @@
+{
+    "values": [
+        "minecraft:player_head",
+        "minecraft:zombie_head",
+        "minecraft:skeleton_skull",
+        "minecraft:wither_skeleton_skull",
+        "minecraft:creeper_head",
+        "minecraft:dragon_head",
+        {"id":"minecraft:piglin_head","required":false},
+
+        {"id":"minecraft:heavy_core","required":false}
+    ]
+}

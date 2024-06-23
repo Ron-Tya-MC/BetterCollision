@@ -1,0 +1,8 @@
+{
+    "values":[
+        {"id":"minecraft:decorated_pot","required":false},
+        {"id":"minecraft:piglin_wall_head","required":false},
+        {"id":"minecraft:sniffer_egg","required":false},
+        {"id":"#minecraft:wall_hanging_signs","required":false}
+    ]
+}

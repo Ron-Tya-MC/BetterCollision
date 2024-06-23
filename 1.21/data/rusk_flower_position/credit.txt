@@ -1,0 +1,5 @@
+Special Thanks
+  らすく氏:@Rusk_Eocssar
+    ランダムで生える植物の位置を計算するライブラリの作成者
+  intsuc氏:@intsuc
+    技術提供者
