@@ -66,12 +66,18 @@
         "minecraft:water",
         "minecraft:weeping_vines",
         "minecraft:weeping_vines_plant",
+
+        "#minecraft:small_flowers",
+        "minecraft:sunflower",
+        "minecraft:lilac",
+        "minecraft:peony",
+        "minecraft:rose_bush",
+
         "#minecraft:banners",
         "#minecraft:buttons",
         "#minecraft:corals",
         "#minecraft:crops",
         "#minecraft:fire",
-        "#minecraft:flowers",
         "#minecraft:portals",
         "#minecraft:pressure_plates",
         "#minecraft:rails",
@@ -93,6 +99,8 @@
         {"id":"minecraft:frogspawn","required":false},
         {"id":"minecraft:mangrove_propagule","required":false},
 
-        {"id":"#minecraft:ceiling_hanging_signs","required":false}
+        {"id":"#minecraft:ceiling_hanging_signs","required":false},
+        {"id":"minecraft:pitcher_plant","required":false},
+        {"id":"minecraft:pink_petals","required":false},
     ]
 }

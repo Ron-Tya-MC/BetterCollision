@@ -1,0 +1,15 @@
+{
+    "values": [
+        "#better_collision:height_1pixel",
+        "#better_collision:height_2pixel",
+        "#better_collision:height_6pixel",
+        "#better_collision:height_7pixel",
+        "#better_collision:height_8pixel",
+        "#better_collision:height_9pixel",
+        "#better_collision:height_12pixel",
+        "#better_collision:height_13pixel",
+        "#better_collision:height_14pixel",
+        "#better_collision:height_15pixel",
+        "#minecraft:slabs"
+    ]
+}

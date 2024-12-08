@@ -19,8 +19,15 @@
             {
                 "directory": "1.21",
                 "formats":{
-                    "max_inclusive": 48,
+                    "max_inclusive": 60,
                     "min_inclusive": 48
+                }
+            },
+            {
+                "directory": "1.21.4",
+                "formats":{
+                    "max_inclusive": 61,
+                    "min_inclusive": 61
                 }
             }
         ]
