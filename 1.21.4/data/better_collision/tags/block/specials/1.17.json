@@ -8,6 +8,7 @@
         {"id":"minecraft:medium_amethyst_bud","required":false},
         {"id":"minecraft:small_amethyst_bud","required":false},
         {"id":"#minecraft:candle_cakes","required":false},
-        {"id":"#minecraft:candles","required":false}
+        {"id":"#minecraft:candles","required":false},
+        {"id":"#minecraft:cauldrons","required":false}
     ]
 }

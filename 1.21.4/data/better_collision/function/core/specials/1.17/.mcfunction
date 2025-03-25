@@ -11,4 +11,5 @@ execute if block ~ ~ ~ minecraft:medium_amethyst_bud run return run function bet
 execute if block ~ ~ ~ minecraft:small_amethyst_bud run return run function better_collision:core/specials/1.17/small_amethyst_bud
 execute if block ~ ~ ~ #minecraft:candle_cakes run return run function better_collision:core/specials/1.17/candle_cakes
 execute if block ~ ~ ~ #minecraft:candles run return run function better_collision:core/specials/1.17/candles
+execute if block ~ ~ ~ #minecraft:cauldrons run return run function better_collision:core/specials/legacy/cauldrons
 execute if block ~ ~ ~ #better_collision:azaleas run return run function better_collision:core/specials/1.17/azalea

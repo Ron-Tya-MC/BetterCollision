@@ -1,8 +1,8 @@
-#> better_collision:core/lantern
+#> better_collision:core/specials/legacy/lantern
 #
 # ランタン系の判定
 #
-# @within function better_collision:core/main
+# @within function better_collision:core/specials/
 
 execute if block ~ ~ ~ #better_collision:lanterns[hanging=false] if score #dy BCollision.core matches ..3749 run return 1
 execute if block ~ ~ ~ #better_collision:lanterns[hanging=false] if score #dx BCollision.core matches 3751..6249 if score #dz BCollision.core matches 3751..6249 if score #dy BCollision.core matches ..4374 run return 1
