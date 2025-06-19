@@ -2,7 +2,7 @@
     "pack": {
         "pack_format": 10,
         "supported_formats":{
-            "max_inclusive": 26,
+            "max_inclusive": 80,
             "min_inclusive": 10
         },
         "description": "§bRon's Datapack"
@@ -26,7 +26,7 @@
             {
                 "directory": "1.21.4",
                 "formats":{
-                    "max_inclusive": 61,
+                    "max_inclusive": 80,
                     "min_inclusive": 61
                 }
             }
