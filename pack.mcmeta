@@ -26,7 +26,7 @@
             {
                 "directory": "1.21.4",
                 "formats":{
-                    "max_inclusive": 80,
+                    "max_inclusive": 81,
                     "min_inclusive": 61
                 }
             }
