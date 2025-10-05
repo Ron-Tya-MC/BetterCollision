@@ -1,0 +1,27 @@
+{
+    "values": [
+        "minecraft:bell",
+        "minecraft:brewing_stand",
+        "minecraft:cactus",
+        "minecraft:cake",
+        "minecraft:cauldron",
+        "minecraft:chorus_plant",
+        "minecraft:cocoa",
+        "minecraft:composter",
+        "minecraft:conduit",
+        "minecraft:grindstone",
+        "minecraft:honey_block",
+        "minecraft:hopper",
+        "minecraft:ladder",
+        "minecraft:lectern",
+        "minecraft:lily_pad",
+        "minecraft:piston_head",
+        "minecraft:sea_pickle",
+        "minecraft:snow",
+        "minecraft:turtle_egg",
+        "#minecraft:anvil",
+        "#minecraft:beds",
+        "#better_collision:pistons",
+        "#better_collision:lanterns"
+    ]
+}

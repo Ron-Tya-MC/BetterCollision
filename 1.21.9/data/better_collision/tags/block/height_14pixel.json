@@ -1,0 +1,6 @@
+{
+    "values": [
+      "minecraft:soul_sand",
+      {"id":"minecraft:mud","required":false}
+    ]
+}

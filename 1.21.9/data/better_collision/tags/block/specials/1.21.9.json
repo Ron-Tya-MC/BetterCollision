@@ -1,0 +1,6 @@
+{
+    "values":[
+        {"id":"#minecraft:wooden_shelves","required":false},
+        {"id":"#minecraft:copper_golem_statues","required":false}
+    ]
+}

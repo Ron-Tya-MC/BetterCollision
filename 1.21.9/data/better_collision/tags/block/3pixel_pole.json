@@ -1,0 +1,6 @@
+{
+    "values": [
+        {"id":"minecraft:chain","required":false},
+        {"id":"#minecraft:chains","required":false}
+    ]
+}

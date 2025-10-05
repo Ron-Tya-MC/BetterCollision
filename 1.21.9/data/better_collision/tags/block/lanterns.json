@@ -1,0 +1,7 @@
+{
+    "values": [
+        "minecraft:lantern",
+        "minecraft:soul_lantern",
+        {"id":"#minecraft:lanterns","required":false}
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "values": [
+        {"id":"minecraft:piglin_head","required":false},
+
+        {"id":"minecraft:dried_ghast","required":false}
+    ]
+}

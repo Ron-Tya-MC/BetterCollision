@@ -1,0 +1,6 @@
+{
+    "values": [
+        "minecraft:bamboo",
+        {"id":"minecraft:pointed_dripstone","required":false}
+    ]
+}

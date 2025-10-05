@@ -8,6 +8,9 @@
     execute store result score #dx BCollision.core run data get entity @e[tag=Better_Collision_PosMarker,limit=1] Pos[0] 100000
     execute store result score #dy BCollision.core run data get entity @e[tag=Better_Collision_PosMarker,limit=1] Pos[1] 100000
     execute store result score #dz BCollision.core run data get entity @e[tag=Better_Collision_PosMarker,limit=1] Pos[2] 100000
+    execute if score #dx BCollision.core <= #-1 BCollision.core run scoreboard players operation #dx BCollision.core *= #-1 BCollision.core
+    execute if score #dy BCollision.core <= #-1 BCollision.core run scoreboard players operation #dy BCollision.core *= #-1 BCollision.core
+    execute if score #dz BCollision.core <= #-1 BCollision.core run scoreboard players operation #dz BCollision.core *= #-1 BCollision.core
     scoreboard players operation #dx BCollision.core %= #100000 BCollision.core
     scoreboard players operation #dy BCollision.core %= #100000 BCollision.core
     scoreboard players operation #dz BCollision.core %= #100000 BCollision.core
