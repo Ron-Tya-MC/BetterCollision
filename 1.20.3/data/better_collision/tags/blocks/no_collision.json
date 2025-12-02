@@ -101,6 +101,6 @@
 
         {"id":"#minecraft:ceiling_hanging_signs","required":false},
         {"id":"minecraft:pitcher_plant","required":false},
-        {"id":"minecraft:pink_petals","required":false},
+        {"id":"minecraft:pink_petals","required":false}
     ]
 }
