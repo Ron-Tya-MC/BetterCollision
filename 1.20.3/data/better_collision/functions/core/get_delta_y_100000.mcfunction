@@ -6,5 +6,4 @@
 
 # 座標内の位置を取得
     execute store result score #dy BCollision.core run data get entity @e[type=item_display,tag=Better_Collision_PosMarker,limit=1] Pos[1] 100000
-    execute if score #dy BCollision.core <= #-1 BCollision.core run scoreboard players operation #dy BCollision.core *= #-1 BCollision.core
     scoreboard players operation #dy BCollision.core %= #100000 BCollision.core
