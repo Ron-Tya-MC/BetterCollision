@@ -118,6 +118,8 @@
         {"id":"minecraft:cactus_flower","required":false},
 
         {"id":"minecraft:copper_torch","required":false},
-        {"id":"minecraft:copper_wall_torch","required":false}
+        {"id":"minecraft:copper_wall_torch","required":false},
+
+        {"id":"minecraft:golden_dandelion","required":false}
     ]
 }
