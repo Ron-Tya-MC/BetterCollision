@@ -1,0 +1,6 @@
+{
+    "values":[
+        {"id":"minecraft:shelf_mushroom","required":false},
+        {"id":"minecraft:straw_bed","required":false}
+    ]
+}

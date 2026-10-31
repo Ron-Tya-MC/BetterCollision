@@ -1,12 +1,12 @@
 {
     "pack": {
-        "pack_format": 6,
+        "pack_format": 15,
         "supported_formats":{
             "max_inclusive": 81,
-            "min_inclusive": 6
+            "min_inclusive": 15
         },
-        "min_format": 82,
-        "max_format": 101,
+        "min_format": 15,
+        "max_format": 121,
         "description": "§bRon's Datapack"
     },
     "overlays": {
@@ -35,11 +35,11 @@
             {
                 "directory": "1.21.9",
                 "formats":{
-                    "max_inclusive": 101,
+                    "max_inclusive": 121,
                     "min_inclusive": 82
                 },
                 "min_format": 82,
-                "max_format": 101
+                "max_format": 121
             }
         ]
     }

@@ -365,6 +365,17 @@
       {"id":"minecraft:pale_moss_block","required":false},
       {"id":"minecraft:resin_block","required":false},
       {"id":"minecraft:resin_bricks","required":false},
-      {"id":"minecraft:chiseled_resin_bricks","required":false}
+      {"id":"minecraft:chiseled_resin_bricks","required":false},
+
+      
+      {"id":"minecraft:sulfur","required":false},
+      {"id":"minecraft:polished_sulfur","required":false},
+      {"id":"minecraft:chiseled_sulfur","required":false},
+      {"id":"minecraft:sulfur_bricks","required":false},
+      {"id":"minecraft:cinnabar","required":false},
+      {"id":"minecraft:polished_cinnabar","required":false},
+      {"id":"minecraft:chiseled_cinnabar","required":false},
+      {"id":"minecraft:cinnabar_bricks","required":false},
+      {"id":"minecraft:potent_sulfur","required":false}
     ]
   }

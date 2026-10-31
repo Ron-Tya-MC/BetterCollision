@@ -14,3 +14,4 @@
     execute if block ~ ~ ~ bamboo run scoreboard players set #fp.size BCollision.core 1875
 
     execute if block ~ ~ ~ #better_collision:random_generation/1.17 run function better_collision:core/random_generation/1.17/
+    execute if block ~ ~ ~ #better_collision:random_generation/26.2 run function better_collision:core/random_generation/26.2/

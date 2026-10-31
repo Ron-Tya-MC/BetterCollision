@@ -1,4 +1,4 @@
-#> better_collision:core/specials/1.17/
+#> better_collision:core/random_generation/1.17/
 #
 # 1.17で追加されたブロック達の判定
 #

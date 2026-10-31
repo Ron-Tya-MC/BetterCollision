@@ -1,6 +1,7 @@
 {
     "values": [
         "minecraft:bamboo",
-        {"id":"minecraft:pointed_dripstone","required":false}
+        {"id":"minecraft:pointed_dripstone","required":false},
+        {"id":"minecraft:sulfur_spike","required":false}
     ]
 }

@@ -10,6 +10,7 @@ execute if block ~ ~ ~ #better_collision:specials/legacy run return run function
 execute if block ~ ~ ~ #better_collision:specials/1.17 run return run function better_collision:core/specials/1.17/
 execute if block ~ ~ ~ #better_collision:specials/1.20 run return run function better_collision:core/specials/1.20/
 execute if block ~ ~ ~ #better_collision:specials/1.21.9 run return run function better_collision:core/specials/1.21.9/
+execute if block ~ ~ ~ #better_collision:specials/26.3 run return run function better_collision:core/specials/26.3/
 
 scoreboard players reset #dx BCollision.core
 scoreboard players reset #dy BCollision.core
